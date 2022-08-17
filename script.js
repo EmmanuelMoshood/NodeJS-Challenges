@@ -40,3 +40,6 @@
 
 // SELECTING BY ID IN JS
 
+
+let lst = [ 1, 54, 5, gtt, '3211']
+
