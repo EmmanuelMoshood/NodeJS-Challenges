@@ -15,54 +15,46 @@ body{
     background-color: #466368 ;
     margin: 0 auto; 
 }
+/* background-color:  rgb(147, 153, 153, .5); */
 
 header {
     height: 10vh;
-    padding: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
 }
 
-h1 {
-    display: inline;
-    margin: 0 0 0 110px;   
-}
+
 main{
     height: 45vh;
-    display: inline;
+    display: flex;
 }
-section{
-    
+main section {
+    height: 100%;
+    border: 0.05rem solid #b3d8df;
 }
-
 .funcSection {
-    width: 70%;
-    border: 0.13rem double rgb(17, 126, 129);
-    background-color:  rgb(147, 153, 153, .5);
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+main section div {
+    width: 5rem;
+    height: 5rem;
+    border: 0.05rem solid #b3d8df;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.funcTitle {
-    width: 20%;
-    border: 0.13rem double rgb(17, 126, 129);
-    background-color:  rgba(14, 173, 173, 0.5);
+main section div p {
+    
+    font-size: 3rem;
 }
-
-div {
-    width: 8vw;
-    height: 8vh;
-    border: 0.13rem double rgb(129, 14, 85, .5);
-    background-color: #b2b2b2;
-    display: inline-block;
-    margin-top: 40px;
-    margin-left: 15%;
-}
-
-#ansSum {
-    display: block;
-    margin: 35px auto 80px;
-}
-
-
-
-
 
 
 
