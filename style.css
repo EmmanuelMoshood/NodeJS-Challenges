@@ -9,31 +9,457 @@ html{
 }
 
 body{
-    width: 50rem;
-    height: 50rem;
+    width: 50vw;
+    height: 100vh;
     border: 0.13rem double yellow;
     background-color: #466368 ;
-    /* display: block; */
-    margin: 0 auto;
-    /* background: linear-gradient(to right bottom, #648880, #293f50);
-    url("bg.png") 40rem 40rem no repeat */
-    /* margin: 5rem 0; */
+    margin: 0 auto; 
+}
+
+header {
+    height: 10vh;
+    padding: 4%;
+}
+
+h1 {
+    display: inline;
+    margin: 0 0 0 110px;   
+}
+main{
+    height: 45vh;
+    display: inline;
+}
+section{
     
 }
 
-div{
-    width: 10rem;
-    height: 10rem;
-    outline: 0.03rem solid rgb(10, 183, 131);
-    display: flexbox;
-    position: relative;
+.funcSection {
+    width: 70%;
+    border: 0.13rem double rgb(17, 126, 129);
+    background-color:  rgb(147, 153, 153, .5);
 }
 
-h1{
-    
-    color: red;
+.funcTitle {
+    width: 20%;
+    border: 0.13rem double rgb(17, 126, 129);
+    background-color:  rgba(14, 173, 173, 0.5);
+}
+
+div {
+    width: 8vw;
+    height: 8vh;
+    border: 0.13rem double rgb(129, 14, 85, .5);
     background-color: #b2b2b2;
-    /* background-color: rgba(0, 0, 0, 0.3); */
-    display: inline-block; 
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 15%;
 }
 
+#ansSum {
+    display: block;
+    margin: 35px auto 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e-L {
+    position: absolute;
+    top: 0px; right: 100px;
+    background-color: aqua;
+}
