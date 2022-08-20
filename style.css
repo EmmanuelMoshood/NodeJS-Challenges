@@ -23,6 +23,10 @@ header {
     align-items: center;
     justify-content: center ;
 }
+h1, h2, h3 {
+    text-align: center;
+    color: rgb(178, 209, 0);
+}
 
 
 main{
@@ -36,26 +40,83 @@ main section {
 .funcSection {
     flex: 2;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-
+}
+.funcTitle {
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+@media screen and (max-width: 900px) {
+    main{
+        height: 45vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .funcSection {
+        display: flex;
+        flex-basis: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        order: 1;
+    }
+    .funcTitle {
+        height: 2rem;
+        width: 100%;
+    }
 }
 main section div {
     width: 5rem;
     height: 5rem;
-    border: 0.05rem solid #b3d8df;
+    background-color: #b3d8df;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
 }
-
 main section div p {
-    
     font-size: 3rem;
 }
+#addEntry1, #addEntry2  {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b3d8df;
+    padding: 1rem;
+    border: none;
+}
 
+
+ 
+footer{
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+}
+footer section {
+    border: 0.05rem solid #b3d8df;
+    display: flex;
+    flex-direction: column;
+}
+footer section div {
+    display: block;
+    background-color: #b3d8df;
+    width: 100%;
+    height: 5rem;
+}
+/* #yourNum {
+    width: 5rem;
+    height: 5rem;
+    background-color: #b3d8df;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 
 
 
