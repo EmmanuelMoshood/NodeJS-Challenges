@@ -1,0 +1,39 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    width: 50rem;
+    height: 50rem;
+    border: 0.13rem double yellow;
+    background-color: #466368 ;
+    /* display: block; */
+    margin: 0 auto;
+    /* background: linear-gradient(to right bottom, #648880, #293f50);
+    url("bg.png") 40rem 40rem no repeat */
+    /* margin: 5rem 0; */
+    
+}
+
+div{
+    width: 10rem;
+    height: 10rem;
+    outline: 0.03rem solid rgb(10, 183, 131);
+    display: flexbox;
+    position: relative;
+}
+
+h1{
+    
+    color: red;
+    background-color: #b2b2b2;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    display: inline-block; 
+}
+
